@@ -12,10 +12,4 @@ public class HomeController {
         System.out.println("home");
         return "index";
     }
-
-    @RequestMapping(value = "/test1", method = RequestMethod.GET)
-    public String test1(){
-        System.out.println("test1");
-        return null;
-    }
 }

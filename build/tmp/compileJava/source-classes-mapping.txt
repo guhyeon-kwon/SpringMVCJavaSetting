@@ -1,2 +1,8 @@
+kr/co/springtest/config/ServletAppContext.java
+ kr.co.springtest.config.ServletAppContext
+kr/co/springtest/config/RootAppContext.java
+ kr.co.springtest.config.RootAppContext
 kr/co/springtest/controller/HomeController.java
  kr.co.springtest.controller.HomeController
+kr/co/springtest/config/SpringConfigClass.java
+ kr.co.springtest.config.SpringConfigClass
