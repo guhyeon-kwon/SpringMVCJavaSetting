@@ -1,18 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: bitcamp
-  Date: 2020-11-05(005)
-  Time: 오후 2:08
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Title</title>
 </head>
 <body>
-    <h1>index.jsp</h1>
-    <h3>Hello SpringMVC</h3>
-    <img src="image/spring-logo.svg"/>
+    <h2>input_data 및 read_data 테스트</h2>
+    <a href='input_data'>input_data</a><br/>
+    <a href='read_data'>read_data</a><br/>
+
+    <h2>정적파일 경로 테스트</h2>
+    <img src="image/spring-logo.svg" style="width: 100px; height: auto;"/>
+
 </body>
 </html>

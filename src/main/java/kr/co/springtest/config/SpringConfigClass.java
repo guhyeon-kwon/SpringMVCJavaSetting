@@ -89,8 +89,8 @@ public class SpringConfigClass extends AbstractAnnotationConfigDispatcherServlet
     // 파라미터 인코딩 필터 설정
     @Override
     protected Filter[] getServletFilters() {
-        CharacterEncodingFilter encodingFilter = new CharacterEncodingFilter();
-        encodingFilter.setEncoding("UTF-8");
-        return new Filter[] {encodingFilter};
+        CharacterEncodingFilter encodingFilter = new CharacterEncodingFilter(); // 인코딩 설정을 위한 인코딩 객체 초기화
+        encodingFilter.setEncoding("UTF-8"); // 인코딩 설정
+        return new Filter[] {encodingFilter}; // 필터에 적용
     }
 }
