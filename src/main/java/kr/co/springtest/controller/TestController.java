@@ -2,6 +2,7 @@ package kr.co.springtest.controller;
 
 import kr.co.springtest.beans.DataBean;
 import kr.co.springtest.database.MapperInterface;
+import kr.co.springtest.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,6 +13,9 @@ import java.util.List;
 
 @Controller
 public class TestController {
+
+    @Autowired
+    private TestService testService;
 
     @Autowired
     MapperInterface mapper1;

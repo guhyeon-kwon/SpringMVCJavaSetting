@@ -12,7 +12,10 @@
 - [x] 정적파일 경로 매핑
 - [x] ViewResolvers prefix, suffix 설정
 - [x] 인코딩 필터 설정
-- [ ] Mapper 샘플
+- [x] Mapper 샘플
+- [x] RestfulApi 샘플 
+- [x] Service Bean 설정
+- [x] Dao Bean 설정
 - [ ] Intercepter 샘플
 - [ ] MariaDB 연결 Bean 추가
 - [ ] messageSource 등록

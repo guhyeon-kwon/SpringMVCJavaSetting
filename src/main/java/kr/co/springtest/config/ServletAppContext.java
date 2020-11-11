@@ -22,6 +22,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableWebMvc
 // 스캔할 패키지를 지정한다.
 @ComponentScan("kr.co.springtest.controller")
+@ComponentScan("kr.co.springtest.service")
+@ComponentScan("kr.co.springtest.dao")
 // property 사용 (@Value 사용)
 @PropertySource("/WEB-INF/properties/db.properties")
 public class ServletAppContext implements WebMvcConfigurer {

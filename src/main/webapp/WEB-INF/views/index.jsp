@@ -8,6 +8,9 @@
     <a href='input_data'>input_data</a><br/>
     <a href='read_data'>read_data</a><br/>
 
+    <h2>RestController 테스트</h2>
+    <a href='test2'>Restful</a><br/>
+
     <h2>정적파일 경로 테스트</h2>
     <img src="image/spring-logo.svg" style="width: 100px; height: auto;"/>
 
